@@ -1,5 +1,9 @@
 collections:
- - slides:
+  slides:
+    output: true
+    permalink: /:path/
 defaults:
- - scope:
-     path: 
+  - values: 
+      root: ..
+  - scope:
+      path: ""
